@@ -19,4 +19,7 @@ public class GameEntity {
     public void setDamage(int damage) {
         this.damage = damage;
     }
+    public String info(){
+        return "Health: " + this.health + " Damage: " + this.damage;
+    }
 }
